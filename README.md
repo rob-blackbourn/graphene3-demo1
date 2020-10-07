@@ -69,7 +69,7 @@ Try this mutation to update your status.
 
 ```graphql
 mutation {
-  updateStatus(status: "This is not a tst") {
+  updateStatus(status: "This is not a test") {
     createdAt
     id
     idStr
