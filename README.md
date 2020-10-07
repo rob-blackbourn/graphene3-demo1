@@ -31,10 +31,10 @@ Clone the project from github then install the project and dependencies.
 Set up the environment variables from your twitter development account and run the server.
 
 ```bash
-(.venv) ~/graphene3-demo1 $ APP_KEY="*******************",
-(.venv) ~/graphene3-demo1 $ APP_KEY_SECRET="*************************************************",
-(.venv) ~/graphene3-demo1 $ ACCESS_TOKEN="**************************************************",
-(.venv) ~/graphene3-demo1 $ ACCESS_TOKEN_SECRET="**********************************************"
+(.venv) ~/graphene3-demo1 $ export APP_KEY="*******************",
+(.venv) ~/graphene3-demo1 $ export APP_KEY_SECRET="*************************************************",
+(.venv) ~/graphene3-demo1 $ export ACCESS_TOKEN="**************************************************",
+(.venv) ~/graphene3-demo1 $ export ACCESS_TOKEN_SECRET="**********************************************"
 (.venv) ~/graphene3-demo1 $ start-server
 ```
 
