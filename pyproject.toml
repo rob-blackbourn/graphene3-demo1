@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "demo"
+version = "0.1.0"
+description = "A demo for Graphene v3"
+authors = ["Rob Blackbourn <rob.blackbourn@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [
+    { include = "demo" }
+]
+repository = "https://github.com/rob-blackbourn/graphene3-demo1"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bareasgi-graphql-next = {version = "^3.12.1", extras = ["graphene"]}
+jetblack-tweeter = {version = "^0.3.0", extras = ["bareclient"]}
+bareasgi-cors = "^3.1.1"
+Hypercorn = "^0.11.1"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.6.0"
+mypy = "^0.782"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
